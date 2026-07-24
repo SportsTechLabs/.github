@@ -1,0 +1,30 @@
+name: "📚 Documentation"
+description: Documentation improvement
+title: "[DOCS] "
+labels:
+  - documentation
+
+body:
+  - type: input
+    id: document
+    attributes:
+      label: Document
+      placeholder: Architecture, README, API...
+    validations:
+      required: true
+
+  - type: textarea
+    id: description
+    attributes:
+      label: Description
+    validations:
+      required: true
+
+  - type: dropdown
+    id: priority
+    attributes:
+      label: Priority
+      options:
+        - Low
+        - Medium
+        - High

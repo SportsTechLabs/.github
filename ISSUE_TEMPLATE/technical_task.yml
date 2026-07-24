@@ -1,0 +1,33 @@
+name: "🔧 Technical Task"
+description: Internal technical work
+title: "[TASK] "
+labels:
+  - chore
+
+body:
+  - type: textarea
+    id: technical_description
+    attributes:
+      label: Technical description
+    validations:
+      required: true
+
+  - type: dropdown
+    id: repository
+    attributes:
+      label: Repository
+      options:
+        - ffib-frontend
+        - ffib-backend
+        - ffib-infrastructure
+        - ffib-docs
+
+  - type: textarea
+    id: dependencies
+    attributes:
+      label: Dependencies
+
+  - type: textarea
+    id: notes
+    attributes:
+      label: Notes

@@ -1,0 +1,10 @@
+blank_issues_enabled: false
+
+contact_links:
+  - name: 📖 Confluence
+    url: https://sportstechlabs.atlassian.net/wiki
+    about: Project documentation
+
+  - name: 🎯 Jira
+    url: https://sportstechlabs.atlassian.net/jira
+    about: Product backlog and sprint planning
